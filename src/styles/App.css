@@ -1,12 +1,74 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+#main {
+  text-align: center;
+  padding: 20px;
+}
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.btn-container {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+}
+
+.menu-item img {
+  width: 100%;
+}
+
+
+#main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* BUTTONS */
+.btn-container {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+🔥 FLEX CONTAINER
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;              /* ✅ rows banane ke liye */
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+  /* flex-direction:row; */
+}
+
+/* 🔥 FLEX ITEM = 2 COLUMNS */
+.menu-item {
+  width: 48%;                   /* ✅ 2 items per row */
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 4px;
 }
